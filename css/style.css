@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body{
+  background: url(S2.jpg);
+}
+
+.semaphore {
+  background-color: #E3E300;
+  border: 1px solid;
+  height: 300px;
+  margin: 20px auto;
+  position: relative;
+  width: 140px;
+}
+.semaphore .spotlight {
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0 10px 3px 0 rgba(0, 0, 0, 0.6), inset 0 0 20px 5px rgba(0, 0, 0, 0.5);
+  height: 70px;
+  margin-left: 35px;
+  opacity: .7;
+  -webkit-transition: background-color .4s ease, box-shadow .4s ease, opacity .4s ease;
+  transition: background-color .4s ease, box-shadow .4s ease, opacity .4s ease;
+  width: 70px;
+}
+.semaphore .spotlight.green {
+  background-color: #27ae60;
+  margin-top: 15px;
+}
+.semaphore .spotlight.green.highlight {
+  background-color: #00c231;
+}
+.semaphore .spotlight.ambar {
+  background-color: #f39c12;
+  margin-top: 30px;
+}
+.semaphore .spotlight.ambar.highlight {
+  background-color: #ff9f06;
+}
+.semaphore .spotlight.red {
+  background-color: #e74c3c;
+  margin-top: 30px;
+}
+.semaphore .spotlight.red.highlight {
+  background-color: #ff3824;
+}
+.semaphore .spotlight.highlight {
+  box-shadow: 0 10px 3px 0 rgba(0, 0, 0, 0.6), inset 0 0 20px 5px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+
+
+
